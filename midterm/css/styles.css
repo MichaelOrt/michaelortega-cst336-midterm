@@ -1,6 +1,7 @@
-.jumbotron {
+.query {
 	color: #2c3e50;
-	background: #ecf0f1
+	background: #ecf0f1;
+	padding: 10px;
 }
 
 .flex-container {
@@ -16,4 +17,14 @@
 
 .flex-item > img {
 	width: 100%;
+}
+.cover{
+	float: left;
+	border: 5px black;
+	border-radius: 10px;
+}
+.info{
+	float: left;
+	margin: 50px;
+	font-size: 25px;
 }

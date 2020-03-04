@@ -1,5 +1,5 @@
 let searchBook = function(){
-	var url = `https://openlibrary.org/api/books?bibkeys=ISBN:${$('#isbn').val()}`;
+	var url = `https://openlibrary.org/api/books?bibkeys=ISBN:${$('#isbn').val()}&format=json&jscmd=data`;
 
 	$.ajax({
 		url: url,
