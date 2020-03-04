@@ -9,10 +9,10 @@
 </head>
 <body>
 	<div class="container">
-		<div class="jumbotron">
+		<div class="query">
 			<h1>Open Library</h1>
 			<p>Please enter the ISBN of the book you'd like to retrive</p>
-			<form action="" method="post" onsubmit="buildGallery(); return false;">
+			<form action="" method="post" onsubmit="searchBook(); return false;">
 				<div class="form-group row">
 					<label for="number-images" class="col-sm-2 col-form-label">ISBN</label>
 					<div class="col-sm-4">
@@ -24,7 +24,12 @@
 				</div>
 			</form>
 		</div>	
+		
 		<div class="flex-container" id="images"></div>
+		<div id='result'>
+			<div class="cover col-sm-3"></div>
+			<div class="info col-sm-4"></div>
+		</div>
 	</div>
 	<script type="text/javascript" src="js/app.js"></script>
 </body>
