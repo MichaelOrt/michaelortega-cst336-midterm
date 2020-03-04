@@ -25,3 +25,4 @@
 	[1, 2]
 	[1, 2]
 ### 4.
+[enter image description here](https://github.com/MichaelOrt/michaelortega-cst336-midterm/blob/master/domStructure.jpg)
